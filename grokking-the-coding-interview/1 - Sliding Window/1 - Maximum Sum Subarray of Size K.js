@@ -1,3 +1,5 @@
+// Given an array of positive numbers and a positive number ‘k,’ 
+// find the maximum sum of any contiguous subarray of size ‘k’.
 const max_sub_array_of_size_k = function(k, arr) {
   //strategy: create sliding window -> compare sum of previous max sum with current window sum
   let windowSum = 0, 
