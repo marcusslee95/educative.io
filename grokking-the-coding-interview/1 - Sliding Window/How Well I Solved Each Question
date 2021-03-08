@@ -1,8 +1,12 @@
-1 - Maximum Sum Subarray of Size K
+1 - Maximum Sum Subarray of Size K (good understanding)
 - Created solution that had same time complexity but worse space complexity
 - Saw model solution, understood it immediately, and changed og solution to follow it without looking at it 
 
 
-2 - Smallest Subarray with a given sum
+2 - Smallest Subarray with a given sum (good understanding)
 - Knew what the correct algorithm / solution was. Just couldn't figure out how to represent it as code
 - Saw model solution, took some time to understand how code was working but went through an example and understood eventually, changed og solution to follow it without looking at it 
+
+3 - Longest Substring with K Distinct Characters (good understanding)
+- Had a sense of the correct also but didn't have all the details right. couldn't figure out how to represent it as code
+- Saw model solution, took a LONGGGG (i mean couple hours and multiple tries) time to understand how code was working but went through an example and understood eventually, changed og solution to follow it without looking at it 
