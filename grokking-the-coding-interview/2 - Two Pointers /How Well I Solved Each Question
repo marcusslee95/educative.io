@@ -10,7 +10,11 @@
 
 
 
-3 - 
+3 - Squaring a Sorted Array
+- didn't bother coding my og also but compared it to model solution algo. -> Main difference was that in og algo i was looking for where 0 started. Whereas w/model solution it was looking for where first non negative # started. -> Besides that the idea was the same, have 1 pointer point to the + numbers while the other pointer point to the - numbers, compare squares of elements pointers pointing to, take the greater one and add it to the output array, move the pointer that points to the square you just added by one, rinse and repeat. -> As I tried to break it down into steps a computer could understand aka. final algo... realized that code would get messier than i'd like because would need to have conditions like if one pointer or another went out of bounds of the array then we'd no longer do comparisons and then just add the squares of the other pointer until that pointer also went out of bounds -> saw that model solution must have thought the same because instead of taking approach where started both pointers inside out, started both pointers from outside in (this way terminal condition would be very clear where pointer that started from left > pointer that started from right) -> after seeing model solution take this approach I attempted to code out solution without looking at it -> succeeded
+
+
+
 
 4 - 
 
