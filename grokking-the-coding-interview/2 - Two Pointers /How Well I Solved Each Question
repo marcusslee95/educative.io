@@ -1,5 +1,6 @@
 1 - Pair with Target Sum
-
+- knew correct also and implemented as code correctly
+- solution was same as model solution (only difference was when we generated the return array of the pointers -> I did it at the beginning when initializing my variables vs. they did at the end when saw sum === target -> I preferred their choice because it means I don't keep track of an array until the very end which means I save some space while algo is happening - though end space used is the same cuz both return same array - and also makes code less verbose) 
 
 2 - 
 
