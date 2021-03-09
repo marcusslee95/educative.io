@@ -15,3 +15,6 @@
 - it was the same question as #3 so knew the correct algorithm + figured out how to represent it as code
 - my solution didn't need any changing as it was the same os model solution
 
+5 - No-repeat Substring (very good understanding)
+- same as #3 and #4 so knew correct also + knew how to represent as code
+- my solution was however different from model solution. Instead of object recording counts of char occurrences in our window / substring - which I did - model solution recorded last index of each character in our window / substring -> having said that the time and space complexities are the same so in terms of performance both would be considered equally good answers. There is a better solution - in terms of space complexity - that uses a 26 length array but I didn't bother trying to implement it. Or actually... I did and it worked.
