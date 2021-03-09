@@ -1,3 +1,6 @@
+// Given a string, find the length of the longest substring in it with no more than K distinct characters.
+
+
 //Gist of what we're doing: expanding the window aka. including the next character in string to our substring
 //  -> if resulting substring does not violate distinct character constraint, comparing the length of our current substring to the previous max substring and taking the greater one
 // -> if resulting substring violates distinct character constraint, shrinking window aka. excluding the first character in window - until no longer violates distinct char. constraint.
@@ -42,10 +45,10 @@ function longest_substring_with_k_distinct(str, k) {
   return maxLength
 }
 //Time Complexity: O(n) -> we're going to go through all the characters in the substring so that's already O(n). 
-You might ask well what about the shrinking part? 
-We'll only shrink our window maximum as many characters as there are in the string 
-(it's not like we'll ever slide the window forward and then slide it back so that we're processing the same character multiple times. We'll only ever slide away from a character once). 
-So that's max O(n) too. So the expanding part and shrinking part is O(n+n) which is just O(n)
+// You might ask well what about the shrinking part? 
+// We'll only shrink our window maximum as many characters as there are in the string 
+// (it's not like we'll ever slide the window forward and then slide it back so that we're processing the same character multiple times. We'll only ever slide away from a character once). 
+// So that's max O(n) too. So the expanding part and shrinking part is O(n+n) which is just O(n)
 
 //Space Complexity: just have to know how many characters max will you store in your object / hashmap 
 //K+1 because moment we add character to violate the dist character constraint (aka. we have K+1 characters in object)  we'll take character out until we meet it
