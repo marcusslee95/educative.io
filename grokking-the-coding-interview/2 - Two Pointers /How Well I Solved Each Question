@@ -1,8 +1,14 @@
 1 - Pair with Target Sum
+- matches Two pointer question type of 'find set of elements in sorted array or linked list that match some condition' because trying to find pair where sum is equal to target sum
 - knew correct also and implemented as code correctly
 - solution was same as model solution (only difference was when we generated the return array of the pointers -> I did it at the beginning when initializing my variables vs. they did at the end when saw sum === target -> I preferred their choice because it means I don't keep track of an array until the very end which means I save some space while algo is happening - though end space used is the same cuz both return same array - and also makes code less verbose) 
 
-2 - 
+2 - Remove Duplicates
+- matches Two pointer question type of 'find set of elements in sorted array or linked list that match some condition' because trying to find all the elements that are unique
+- had a different algo but think it would have worked -> didn't bother coding
+- saw model solution, it had different usage of two pointers. My two pointers were 1 pointer was the last unique index and then the next non duplicate index. Model had one pointer for iterating the array (to spot the next non duplicate number) and one pointer for remembering where to place the next non-duplicate number when we found it. So model algorithm will go through the array with 1st and whenever see a non-duplicate number we move it next to the last non-duplicate number we’ve seen whose place / index we remembered via 2nd pointer. -> walked through example using model algorithm to make sense of it. Made sense. In fact lot better than my OG algo. Rewrote model algo in my own words and implemented it successfully (minor difference in that i use for loop whereas model sol uses while loop but no difference in logic)
+
+
 
 3 - 
 

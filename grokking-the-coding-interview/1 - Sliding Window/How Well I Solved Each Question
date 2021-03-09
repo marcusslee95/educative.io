@@ -1,4 +1,5 @@
 1 - Maximum Sum Subarray of Size K (good understanding)
+- matches sliding window question type of 'find or calculate something among all the contiguous subarrays (or sublists) of a given size' because asking to look at subarrays of size k to find the one with greatest sum (didn't bother writing this out in following Qs but I will in later chapters
 - Created solution that had same time complexity but worse space complexity
 - Saw model solution, understood it immediately, and changed og solution to follow it without looking at it 
 
