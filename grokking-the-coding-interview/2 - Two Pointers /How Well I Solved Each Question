@@ -16,7 +16,11 @@
 
 
 
-4 - 
+4 - Triplet Sum to Zero
+- Got stuck in trying to create my og solution -> one thing that I did realize was that we needed to sort array for two pointers approach to work effectively -> what I didn't realize was - as shown in model solution - could treat this problem as previous problem we solved aka. could use similar algorithm with a few tweaks. -> walked through model algorithm in an example input... and understood how it worked / the steps -> wasn't motivated to code it out but.... tried and succeeded? -> I nearly did. Had everything to the code right except I couldn't figure out how to prevent storing duplicates (I could probably look at output array and check to see if triplet existed before storing but figured that would not be viable option because it's too costly time wise -> tried copy pasting model solution code for removing duplicates didn't work -> tried other approaches but couldn't find working remove duplicate).
+
+
+*After this question I am so done w/two pointers I'm moving onto the next section..... might take a break from ds&a qs and just move onto system design for now
 
 5 - 
 
